@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" id="Dark-mode" href="GAG_Dark_style.css">
+    <link rel="stylesheet" id="page-mode" href="GAG_style.css">
+    
+    <title>GAG_Good As Green</title>
+</head>
+<body>
+    <div class="hero">
+    <section class="main">
+        <header>
+        <nav>
+            <div class="logo">
+                  <img height="70px" width="65px" src="./logo_GAG.webp" alt=""><span class="gag">GaG</span>
+            </div>
+            
+            <div class="menu">
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Packages</a></li>
+                <li><a href="#">Our Team</a></li>
+                <li><a href="#">Testimonial</a></li>
+            </ul>
+            </div>
+            <div class="button">
+                <button>Log in</button>
+                <a id="mom" href="#">Get Started</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div id="man">
+            <h1>Your Investments <br>Will Only be as<span> <br> Good <span id="leaf">as</span> Green</span></h1>
+            <p>We are not just aimed at <span><b>building wealth</b></span> for you. <br>
+            Our goal is to build the community of <br> <span><b>farmers</b></span>, as well as the <span><b>agricultural industry</b></span></p><button class="jow"> Join Our Waitlist</button>
+        </div>
+
+        <div class="man">
+            <img height="200" width="200" src="./farm-image-1.jpg" class="frm-img-1"><br>
+            <img height="200" width="200" src="./farm-image-4.jpg" class="frm-img-4">
+        </div>
+    </main>
+    
+</section>
+</div>
+
+<script>
+    function mode(sw) {
+        var mod; 
+            if (sw==0) {
+                mod = "GAG_Dark_style.css"
+            }
+            else {
+                mod = "GAG_style.css"
+            }
+            document.getElementById('page-mode').href = mod;
+        }
+</script>
+
+<button class="mode" type="button" onclick="mode(1)">Light Mode</button>
+<button class="mode" type="button" onclick="mode(0)">Dark Mode</button>
+
+</body>
+</html>
