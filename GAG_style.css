@@ -23,6 +23,10 @@ body {
     margin-left: 10px;
 }
 
+.my {
+    font-size: xx-large;
+}
+
 ul li {
     display: inline-block;
     margin-top: auto;
@@ -65,14 +69,19 @@ nav {
 }
 
 .logo {
+    display:flex;
     margin-top: 20px;
     margin-left: 50px;
+    justify-content: center;
+    align-items: center;
+
   }
 
 .gag {
     margin-top: 0;
     color: rgb(8, 221, 8);
-    font-weight: bold;
+    font-weight: bolder;
+    font-size: x-large;
     display: inline;
 }
 
@@ -108,7 +117,7 @@ main {
 
 
  span{
-     color:rgb(8, 221, 8);
+     color: rgb(8, 221, 8);
  }
 
  #man {

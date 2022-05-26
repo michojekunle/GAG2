@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" id="Dark-mode" href="GAG_Dark_style.css">
     <link rel="stylesheet" id="page-mode" href="GAG_style.css">
     
     <title>GAG_Good As Green</title>
@@ -15,7 +14,7 @@
         <header>
         <nav>
             <div class="logo">
-                  <img height="70px" width="65px" src="./logo_GAG.webp" alt=""><span class="gag">GaG</span>
+                  <img height="70px" width="65px" src="./logo_GAG.webp" alt=""><span class="gag"><b>GaG</b></span>
             </div>
             
             <div class="menu">
@@ -36,7 +35,8 @@
         <div id="man">
             <h1>Your Investments <br>Will Only be as<span> <br> Good <span id="leaf">as</span> Green</span></h1>
             <p>We are not just aimed at <span><b>building wealth</b></span> for you. <br>
-            Our goal is to build the community of <br> <span><b>farmers</b></span>, as well as the <span><b>agricultural industry</b></span></p><button class="jow"> Join Our Waitlist</button>
+            Our goal is to build the community of <br> <span><b>farmers</b></span>, as well as the
+             <span><b>agricultural industry</b></span></p>    <button class="jow"> Join Our Waitlist</button><p id="demo"></p>
         </div>
 
         <div class="man">
@@ -44,9 +44,9 @@
             <img height="200" width="200" src="./farm-image-4.jpg" class="frm-img-4">
         </div>
     </main>
-    
+     
 </section>
-</div>
+;</div>
 
 <script>
     function mode(sw) {
@@ -59,10 +59,17 @@
             }
             document.getElementById('page-mode').href = mod;
         }
+
+    function my(num1, num2) {
+        return num1 * num2;
+    }
+    document.getElementById('demo').innerHTML=my(2,2);
 </script>
+
 
 <button class="mode" type="button" onclick="mode(1)">Light Mode</button>
 <button class="mode" type="button" onclick="mode(0)">Dark Mode</button>
+
 
 </body>
 </html>
